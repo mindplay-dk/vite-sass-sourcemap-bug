@@ -1,0 +1,59 @@
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+img,
+span,
+input,
+button,
+select,
+legend,
+textarea,
+fieldset {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-background);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:where([hidden]){
+  display:none;
+}
+
+img {
+  max-width: 100%;
+}
+
+textarea {
+  white-space: revert;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}

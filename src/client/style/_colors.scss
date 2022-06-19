@@ -1,0 +1,10 @@
+:root {
+  --color-background: #DBE2EA;
+  --color-shade: #B4BAC1; // slightly darker than `--color-background` - used for hairline borders and disabled states
+  --color-tint: #EBF4F8;
+  --color-primary: #0880AE;
+  --color-black: #2C2738;
+  --color-shadow: #2C273814; // transparent version of `--color-black` for drop-shadows
+  --color-secondary: #756F86;
+  --color-white: #FFFFFF;
+}
